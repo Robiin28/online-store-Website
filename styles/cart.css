@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.message{
+    position: sticky;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color:black;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .container{
+    width:100%;
+  }
+  .heading{
+    text-align:center;
+  }
+.btn,
+.delete-btn,
+.option-btn{
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:white;
+   border-radius: 5px;
+   text-transform: capitalize;
+   transition:0.3s;
+}
+
+.btn:hover,
+.option-btn:hover{
+   background-color: white;
+   color:black;
+}
+.delete-btn:hover{
+    background-color:black;
+}
+.btn{
+   background-color: black;
+   margin-top: 10px;
+}
+
+.delete-btn{
+   background-color: rgb(207, 0, 0);
+   text-decoration:none;
+}
+
+.option-btn{
+   background-color: black;
+}
+
+.container .shopping-cart{
+    padding:20px 0;
+ }
+ 
+ .container .shopping-cart table{
+    width: 100%;
+    text-align: center;
+    border:var(--border);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background-color: white;
+ }
+ 
+ .container .shopping-cart table thead{
+    background-color: black;
+ }
+ 
+ .container .shopping-cart table thead th{
+    padding:10px;
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+ }
+ 
+ .container .shopping-cart table .table-bottom{
+    background-color: rgb(238, 238, 238);
+ }
+ 
+ .container .shopping-cart table tr td{
+    padding:10px;
+    font-size: 20px;
+    color:black;
+ }
+ 
+ .container .shopping-cart table tr td:nth-child(1){
+    padding:0;
+ }
+ 
+ .container .shopping-cart table tr td input[type="number"]{
+    width: 80px;
+    border:2px solid black;
+    padding:12px 14px;
+    font-size: 20px;
+    color:black;
+ }
+ 
+ .container .shopping-cart .checkout-btn{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration:none;
+ }
+ .checkout-btn a{
+    text-decoration:none;
+ }
+ .container .shopping-cart .disabled{
+    pointer-events: none;
+    background-color: grey;
+    opacity: .5;
+    user-select: none;
+ }
+ @media (max-width:450px){
+    .container .heading{
+       font-size: 30px;
+    }
+    .container .products .box-container .box img{
+       height: 200px;
+    }
+ } 

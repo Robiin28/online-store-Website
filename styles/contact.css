@@ -1,0 +1,173 @@
+
+.form-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px 30px 20px ;
+    margin: 60px 0 50px;
+
+}
+
+.info-container{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   margin-right: 100px;
+   margin-left: 30px;
+   padding: 0;
+   
+}
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.sub-info-container{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-style: ridge;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info-header{
+    font-size: 20px; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+.info-header2{
+    font-size:15px; 
+    font-weight:bold ;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.info-address{
+    font-size: 14px;
+    font-weight: 550; 
+    margin-bottom: 30px;
+}
+
+.google-map{
+    width: 100%;
+}
+
+.form-container{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    border-style: ridge;
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.contact-us-text-container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,20,71,1) 12%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin: 0;
+}
+
+.contact-us-text{
+    text-align: center;
+    font-size: 30px;
+    margin: 35px;
+}
+.form-container{
+    background-color: rgb(228, 226, 226);   
+}
+form{
+    margin: 20px;
+    
+}
+
+label{
+    font-size: 16px;
+}
+span{
+    color: red;
+    font-size: 16px;
+}
+.label-container{
+    margin: 15px 0;
+}
+form input{
+    padding: 10px;
+    margin-right: 10px ;
+    background-color: rgb(228, 226, 226);
+    border-width: 1px;
+    font-size: 15px;
+    transition: border-radius .3s , box-shadow .3s;
+}
+form input:focus{
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,.2);
+    outline: none;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+textarea{
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgb(228, 226, 226);
+    font-size: 16px;
+    transition: border-radius .5s , box-shadow .5s;
+}
+textarea:focus{
+
+        border-radius: 30px;
+        box-shadow: 3px 3px 6px rgba(0,0,0,.2);
+        outline: none;
+
+}
+textarea:focus::placeholder{
+    color: transparent;
+}
+.button-container{
+    text-align: center;
+}
+
+form button{
+    padding: 10px 70px;
+    margin: 15px 0;
+    font-size: 17px ;
+    border-radius: 20px;
+    border: none;
+}
+.address-input{
+    width: 60%;
+}
+
+
+.submit-btn{
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(73, 157, 236);
+    transition: color .3s,background-color .3s,box-shadow .3s;
+}
+.submit-btn:hover{
+    color: rgb(73, 157, 236);
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+
+.submit-btn:active{
+    opacity: .7;
+}
+
+.reset-btn{
+    margin-bottom: 30px;
+    color: white;
+    background-color:black;
+    transition: color .3s,background-color .3s,box-shadow .3s;
+}
+.reset-btn:hover{
+    color:black;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+
+.reset-btn:active{
+    opacity: .7;
+}
